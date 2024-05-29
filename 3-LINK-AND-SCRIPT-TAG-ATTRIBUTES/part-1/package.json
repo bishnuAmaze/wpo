@@ -1,0 +1,22 @@
+{
+  "name": "link-and-script-tags-part-1",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Voinov A.V.",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  },
+  "devDependencies": {
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack-dev-server": "^4.15.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

@@ -1,0 +1,167 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+  font-family: "Calibri", sans-serif;
+}
+
+header {
+  height: 300px;
+  padding: 2rem 1rem 0;
+  background-color: #9ea9bd;
+
+  h1 {
+    padding: 0 1rem;
+    background-color: #124878;
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    height: 400px;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    height: 500px;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+section {
+  padding: 2rem 1rem;
+
+  h2 {
+    padding: 0 1rem;
+    background-color: #124878;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+
+  p {
+    color: #ffffff;
+  }
+
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+
+.section-1 {
+  height: 200px;
+  background-color: #515b6f;
+}
+
+.section-2 {
+  height: 300px;
+  background-color: #abc0ea;
+}
+
+.section-3 {
+  height: 400px;
+  background-color: #303d57;
+}
+
+.section-4 {
+  height: 500px;
+  background-color: #abc0ea;
+}
+.section-5 {
+  height: 600px;
+  background-color: #515b6f;
+}
+
+@media (min-width: 768px) {
+  .section-1 {
+    height: 300px;
+  }
+
+  .section-2 {
+    height: 400px;
+  }
+
+  .section-3 {
+    height: 500px;
+  }
+
+  .section-4 {
+    height: 400px;
+  }
+
+  .section-5 {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-1 {
+    height: 400px;
+  }
+
+  .section-2 {
+    height: 500px;
+  }
+
+  .section-3 {
+    height: 600px;
+  }
+
+
+  .section-4 {
+    height: 500px;
+  }
+
+  .section-5 {
+    height: 400px;
+  }
+}
+
+footer {
+  background-color: #2a2b2d;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+  }
+
+  li {
+    margin: 0 0.5rem;
+  }
+
+
+  @media (min-width: 768px) {
+    a {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    a {
+      font-size: 2rem;
+    }
+  }
+}
