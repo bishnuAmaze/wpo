@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hometask 7</title>
+</head>
+<body>
+<main>
+    <h1>Demonstration of Web Workers power with difficult calculations</h1>
+    <section class="buttons">
+        <button id="bWithoutWW">
+            Without Web Worker
+        </button>
+        <button id="bWithWW">
+            With Web Worker
+        </button>
+    </section>
+    <div id="spinner" class="hidden"></div>
+    <section id="result" class="hidden">
+        <p>50K Array sorted in:
+            <span id="timeSpent"></span>
+        </p>
+        <p id="withoutWW" class="hidden">
+            Without Web Worker main thread is blocked and browser freezes while the task is being completed. Browser can't render anything until sorting ends.
+        </p>
+        <p id="withWW" class="hidden">
+            With Web Worker task is being completed in separate thread and releases the main thread, so browser can render anything without any problem.
+        </p>
+    </section>
+</main>
+</body>
+</html>
